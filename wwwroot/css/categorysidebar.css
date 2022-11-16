@@ -1,0 +1,178 @@
+﻿.categorysidebar {
+}
+
+.title-category span {
+    font-size: 40px;
+}
+
+.title-category a {
+    font-size: 20px;
+    margin: auto;
+    margin-left: 0px;
+}
+.categorysidebar ul li a {
+    text-decoration: none;
+    display: block;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.liPostOne a:hover {
+    cursor: pointer;
+    border-right: 5px solid #3ba7d3;
+}
+
+.categorysidebar ul li {
+    padding: 0px;
+    margin: 0px;
+   
+    list-style: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.tree-mycollapse {
+    width: 100%;
+    border: none;
+    margin: 2px;
+    padding: 0px;
+}
+
+.tree-mycollapse span{
+   font-weight: normal;
+}
+
+.tree-mycollapse a {
+   border: none;
+    
+}
+
+/*thanh link*/
+.link {
+    display: block;
+    text-align: left;
+    padding-left: 0px;
+    border-radius: 0px;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    color: black;
+    margin-bottom: 5px;
+    padding-left: 7px;
+}
+
+.tree-link-mycollapse {
+    display: block;
+    text-align: left;
+    padding-left: 0px;
+    border-radius: 0px;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    color: black;
+    margin-bottom: 5px;
+    
+   
+}
+
+.tree-link-mycollapse span {
+    color: #000000;
+    border-radius: 0px;
+}
+
+.tree-link-mycollapse span:hover{
+    background:#e3e3e3;
+     border-radius: 4px;
+    
+}
+
+
+.tree-icon-mycollapse {
+    border-radius: 0px;
+    /* width: 100px;*/
+    padding: 0px;
+   
+}
+.tree-icon-mycollapse span:hover {
+    background: #e3e3e3;
+    border-radius: 5px;
+}
+
+.link:hover {
+  
+    background: #e3e3e3;
+    color: black;
+}
+.tree-icon-mycollapse span {
+    border-radius: 0px;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    
+}
+
+.categorysidebar ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.liPostOne {
+    margin-left: 9px;
+}
+
+    .liPostOne a {
+        text-align: center;
+    }
+
+
+.mycollapse {
+    display: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.myshow {
+    display: block;
+}
+
+
+
+.tree-icon-mycollapse span::after {
+    /* font-family: "Font Awesome 5 Free";*/
+    /*  display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;*/
+    content: "▷";
+    color: black;
+}
+
+.tree-icon-mycollapse .myactive::after {
+    /*font-family: "Font Awesome 5 Free";*/
+    content: "▼";
+    /*display: inline-block;*/
+    /* vertical-align: middle;
+    font-weight: 900;*/
+    color: black;
+}
+
+/*active*/
+
+.active-link {
+    
+    background: #e3e3e3;
+    border-right: 8px solid #3ba7d3;
+}
+
+.active-collapse {
+  
+    border-radius: 0px;
+    background: #e3e3e3;
+}
+
+.active-link-collapse {
+    border-radius: 0px;
+    background: #e3e3e3;
+    border-left: 8px solid #3ba7d3;
+}
